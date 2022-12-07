@@ -1,0 +1,112 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+	.navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 96% !important;
+    }
+
+    .slider-background {
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .navbar-light .navbar-toggler {
+        position: relative;
+        top: 0;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 60px;
+        background: #020312;
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+        background: #040624;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .msg-playing p {
+        line-height: 1.15;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .slider-background {
+        height: 1024px;
+        object-fit: cover;
+    }
+
+    .site-header:before {
+        display: none;
+    }
+
+    img.site-logo {
+        width: 156px;
+    }
+
+    .site-header {
+        background: rgba(2,3,18,0.9);
+        padding-bottom: 5px;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+        background: #040624;
+    }
+
+    ul.navbar-nav * {
+        text-align: center;
+    }
+
+    .hero-section .carousel-item .carousel-caption .slider-secodary-img .secondary-shape01 {
+        width: 45px;
+        top: -30px;
+        left: 20px;
+    }
+    
+    .hero-section .carousel-item .carousel-caption .slider-secodary-img .secondary-shape02 {
+        width: 90px;
+        top: -20px;
+        left: 50px;
+    }
+    
+    .hero-section .carousel-item .carousel-caption .slider-secodary-img .secondary-shape03 {
+        width: 50px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .hero-section .carousel-item .carousel-caption * {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-background {
+        width: 100%;
+        max-height: 768px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .slider-background {
+        height: 900px;
+        object-fit: cover;
+    }
+}
